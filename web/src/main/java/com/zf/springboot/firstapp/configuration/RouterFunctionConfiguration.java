@@ -2,7 +2,6 @@ package com.zf.springboot.firstapp.configuration;
 
 import com.zf.springboot.firstapp.domain.User;
 import com.zf.springboot.firstapp.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.server.RequestPredicates;
@@ -20,7 +19,7 @@ import java.util.Collection;
 public class RouterFunctionConfiguration {
 
     @Bean
-    @Autowired
+//    @Autowired
     public RouterFunction<ServerResponse> personFindAll(UserRepository userRepository){
 
 

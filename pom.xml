@@ -6,7 +6,11 @@
 	<groupId>com.zf.springboot</groupId>
 	<artifactId>first-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>model</module>
+        <module>persistence</module>
+    </modules>
+    <packaging>pom</packaging>
 
 	<name>first-app</name>
 	<description>Demo project for Spring Boot</description>
